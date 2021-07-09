@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Switch</title>
+    <script src="https://kit.fontawesome.com/f9a01ea1da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- HEADER OF THE PAGE -->
+    <header>
+        <div class="container-fluid h-100">
+            <div id="nav" class="row">
+                <!-- NAVIGATION -->
+                <nav class="col-10 col-lg-5 p-0">
+                    <ul class="p-0">
+                        <li class="active"><a href="#top">Home</a></li>
+                        <li><a href="#about">What we do?</a></li>
+                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <!-- TITLE -->
+                <div class="title col-2">
+                    <h1 class="text-center">Switch</h1>
+                </div>
+                <!-- SEARCH INPUT -->
+                <form class="col-5 d-lg-block d-none text-end">
+                    <input class="btn-white" type="search" name="search" id="search" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
+            <!-- CONTENT OF THE HEADER -->
+            <div id="content" class="d-flex flex-column justify-content-center text-center">
+                <p class="mb-4">Art is Eternal Happiness</p>
+                <a class="btn btn-green align-self-center text-uppercase" href="#">Work with us</a>
+            </div>
+            <!-- FOOT OF THE HEADER -->
+            <div class="text-center">
+                <a class="btn btn-white" href="#about">scroll down <i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </header>
+
+    <!-- MAIN SECTION OF THE PAGE -->
+    <main class="container-fluid">
+        <!-- "WHAT WE DO" SECTION -->
+        <section id="about" class="row text-center ps-5 pe-5">
+            <h2 class="text-uppercase">What we do</h2>
+            <hr class="line">
+            <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <!-- FIRST SECTION ITEM -->
+            <div class="item pb-5 col-12 col-md-4 d-block d-sm-flex d-md-block">
+                <div class="icon mx-auto mx-sm-3 mb-3 my-sm-auto mx-md-auto mb-md-4">
+                    <img src="assets/img/icons/camera-icon.png" alt="Camera icon">
+                </div>
+                <div>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <a class="btn btn-green" href="#">Learn more</a>
+                </div>
+            </div>
+            <!-- SECOND SECTION ITEM -->
+            <div class="item pb-5 col-12 col-md-4 d-block d-sm-flex d-md-block">
+                <div class="icon mx-auto mx-sm-3 mb-3 my-sm-auto mx-md-auto mb-md-4">
+                    <img src="assets/img/icons/tachometer-icon.png" alt="Tachometer icon">
+                </div>
+                <div>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <a class="btn btn-green" href="#">Learn more</a>
+                </div>
+            </div>
+            <!-- THIRD SECTION ITEM -->
+            <div class="item pb-5 col-12 col-md-4 d-block d-sm-flex d-md-block">
+                <div class="icon mx-auto mx-sm-3 mb-3 my-sm-auto mx-md-auto mb-md-4">
+                    <img src="assets/img/icons/briefcase-icon.png" alt="Briefcase icon">
+                </div>
+                <div>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <a class="btn btn-green" href="#">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- "OUR LATEST WORK" SECTION -->
+        <section id="works" class="text-center">
+            <h2 class="text-uppercase">Our latest work</h2>
+            <hr class="line">
+            <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div>
+                <!-- NAVIGATION OF TABS-->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="photogtaphy-tab" data-bs-toggle="tab"
+                            data-bs-target="#photogtaphy" type="button" role="tab" aria-controls="photogtaphy"
+                            aria-selected="true">Photography</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design"
+                            type="button" role="tab" aria-controls="design" aria-selected="false">Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="print-tab" data-bs-toggle="tab" data-bs-target="#print"
+                            type="button" role="tab" aria-controls="print" aria-selected="false">Print</button>
+                    </li>
+                </ul>
+                <div class="tab-content container" id="myTabContent">
+                    <!-- ITEMS OF THE "Photography" TAB-->
+                    <div class="tab-pane fade show active" id="photogtaphy" role="tabpanel"
+                        aria-labelledby="photogtaphy-tab">
+                        <div class="d-flex flex-wrap justify-content-evenly">
+                            <div class="item">
+                                <a id="img1" href="assets/img/img1.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img2" href="assets/img/img2.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img3" href="assets/img/img3.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img4" href="assets/img/img4.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img5" href="assets/img/img5.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img6" href="assets/img/img6.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img7" href="assets/img/img7.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img8" href="assets/img/img8.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img9" href="assets/img/img9.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img10" href="assets/img/img10.png" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ITEMS OF THE "Design" TAB-->
+                    <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                        <div class="d-flex flex-wrap justify-content-evenly">
+                            <div class="item">
+                                <a id="img10" href="assets/img/img10.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img9" href="assets/img/img9.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img8" href="assets/img/img8.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img7" href="assets/img/img7.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img6" href="assets/img/img6.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img5" href="assets/img/img5.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img4" href="assets/img/img4.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img3" href="assets/img/img3.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img2" href="assets/img/img2.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img1" href="assets/img/img1.png" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ITEMS OF THE "Print" TAB-->
+                    <div class="tab-pane fade" id="print" role="tabpanel" aria-labelledby="print-tab">
+                        <div class="d-flex flex-wrap justify-content-evenly">
+                            <div class="item">
+                                <a id="img5" href="assets/img/img5.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img6" href="assets/img/img6.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img7" href="assets/img/img7.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img1" href="assets/img/img1.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img10" href="assets/img/img10.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img2" href="assets/img/img2.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img9" href="assets/img/img9.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img4" href="assets/img/img4.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img8" href="assets/img/img8.png" target="_blank"></a>
+                            </div>
+                            <div class="item">
+                                <a id="img3" href="assets/img/img3.png" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-darkgreen" href="#">View more work <i class="fas fa-arrow-right"></i></a>
+        </section>
+
+
+        <!-- "TESTIMONIALS" SECTION -->
+        <section id="testimonials" class="text-center">
+            <h2 class="text-uppercase">Testimonials</h2>
+            <hr class="line">
+            <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <!-- CAROUSEL -->
+            <div class="container mb-0">
+                <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- FIRST PAGE OF THE CAROUSEL -->
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="carousel-caption">
+                                <p>
+                                    "Awalnya saya tidak menderita penyakit apapun,<br>
+                                    namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br>
+                                    tidak menderita penyakit apapun!”
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="assets/img/mr-herp.png" alt="Mr. Herp">
+                                    <div class="text-start ps-2">
+                                        <span class="name d-block">Mr. Herp</span>
+                                        <span class="position d-block">CEO of Meme, Inc.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SECOND PAGE OF THE CAROUSEL -->
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-caption">
+                                <p>
+                                    "Awalnya saya tidak menderita penyakit apapun,<br>
+                                    namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br>
+                                    tidak menderita penyakit apapun!”
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="assets/img/mr-herp.png" alt="Mr. Herp">
+                                    <div class="text-start ps-2">
+                                        <span class="name d-block">Mr. Herp</span>
+                                        <span class="position d-block">CEO of Meme, Inc.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- THIRD PAGE OF THE CAROUSEL -->
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p>
+                                    "Awalnya saya tidak menderita penyakit apapun,<br>
+                                    namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br>
+                                    tidak menderita penyakit apapun!”
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="assets/img/mr-herp.png" alt="Mr. Herp">
+                                    <div class="text-start ps-2">
+                                        <span class="name d-block">Mr. Herp</span>
+                                        <span class="position d-block">CEO of Meme, Inc.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CAROUSEL CONTROL BUTTONS-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- "OUR HAPPY CLIENT" SECTION -->
+        <section id="client" class="text-center">
+            <h2 class="text-uppercase">Our happy client</h2>
+            <hr class="line">
+            <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="container">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <a class="item d-flex justify-content-center align-items-center" href="https://about.google/" target="_blank">
+                        <img src="assets/img/icons/google-logo.png" alt="Google logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.yahoo.com/" target="_blank">
+                        <img src="assets/img/icons/yahoo-logo.png" alt="Yahoo! logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.microsoft.com/en-gulf/about/company" target="_blank">
+                        <img src="assets/img/icons/microsoft-logo.png" alt="Microsoft logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.intc.com/about-intel" target="_blank">
+                        <img src="assets/img/icons/intel-logo.png" alt="Intel logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.qualcomm.com/company/about" target="_blank">
+                        <img src="assets/img/icons/qualcomm-logo.png" alt="Qualcomm logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.cisco.com/c/en_au/about/who-is-head.html" target="_blank">
+                        <img src="assets/img/icons/cisco-logo.png" alt="Cisco logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.apple.com/" target="_blank">
+                        <img src="assets/img/icons/apple-logo.png" alt="Apple logo">
+                    </a>
+                    <a class="item d-flex justify-content-center align-items-center" href="https://www.asus.com/in/About_ASUS/Company-Introduction/" target="_blank">
+                        <img src="assets/img/icons/asus-logo.png" alt="ASUS logo">
+                    </a>
+                </div>
+            </div>
+            <a class="btn btn-gray" href="#">See all client <i class="fas fa-arrow-right"></i></a>
+        </section>
+
+
+        <!-- "MEET THE TEAM" SECTION -->
+        <section id="team" class="text-center">
+            <h2 class="text-uppercase">Meet the team</h2>
+            <hr class="line">
+            <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="container d-flex justify-content-evenly flex-wrap">
+                <!-- FIRST ITEM -->
+                <div class="item mb-5 mb-md-0">
+                    <div class="img pt-3 ps-2">
+                        <img src="assets/img/krisna-wijaya.png" alt="Krisna Wijaya">
+                    </div>
+                    <div class="vertical-line"></div>
+                    <span class="name">Krisna Wijaya</span>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/behance-logo.png" alt="Behance logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- SECOND ITEM -->
+                <div class="item mb-5 mb-md-0">
+                    <div class="img pt-4">
+                        <img src="assets/img/gabriel-yoshua.png" alt="Gabriel Yoshua">
+                    </div>
+                    <div class="vertical-line"></div>
+                    <span class="name">Gabriel Yoshua</span>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/behance-logo.png" alt="Behance logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- THIRD ITEM -->
+                <div class="item mb-5 mb-md-0">
+                    <div class="img pt-3">
+                        <img src="assets/img/adik-nkl.png" alt="Adik N.K.L">
+                    </div>
+                    <div class="vertical-line"></div>
+                    <span class="name">Adik N.K.L</span>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/behance-logo.png" alt="Behance logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- FOURTH ITEM -->
+                <div class="item mb-5 mb-md-0">
+                    <div class="img pt-2">
+                        <img src="assets/img/zan-dj.png" alt="Zan D.J" style="margin-left: -8px;">
+                    </div>
+                    <div class="vertical-line"></div>
+                    <span class="name">Zan D.J</span>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/behance-logo.png" alt="Behance logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- FIFTH ITEM -->
+                <div class="item mb-5 mb-md-0">
+                    <div class="img pt-3">
+                        <img src="assets/img/faizal-febri.png" alt="Faizal Febri" style="margin-left: -30px;">
+                    </div>
+                    <div class="vertical-line"></div>
+                    <span class="name">Faizal Febri</span>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/behance-logo.png" alt="Behance logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-green">
+                <a class="btn btn-green" href="#">WORK WITH US</a>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer class="container-fluid text-center">
+        <div class="row px-3 px-lg-5">
+            <!-- "ABOUT US" SECTION -->
+            <section id="about-us" class="col-12 col-lg-4 m-0">
+                <h2 class="text-uppercase">About us</h2>
+                <hr class="line">
+                <div>
+                    <p class="pt-0 mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                    <div class="social-media">
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/dribble-logo.png" alt="Dribble logo">
+                        </a>
+                        <a class="pe-1" href="#">
+                            <img src="assets/img/icons/facebook-logo.png" alt="Facebook logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter-logo.png" alt="Twitter logo">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- "RECENT POSTS" SECTION -->
+            <section id="posts" class="col-12 col-lg-4 m-0">
+                <h2 class="text-uppercase">Recent posts</h2>
+                <hr class="line">
+                <div class="d-flex flex-wrap justify-content-between d-lg-block">
+                    <!-- FIRST ITEM -->
+                    <a class="item d-block" href="#">
+                        <div class="d-flex justify-content-center">
+                            <div id="post1" class="img"></div>
+                            <div class="text-start ps-2">
+                                <h3>Lorem Ipsum Dolor Sit Amet.</h3>
+                                <span class="badge badge-green text-uppercase">Magazine</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- SECOND ITEM -->
+                    <a class="item d-block" href="#">
+                        <div class="d-flex justify-content-center">
+                            <div id="post2" class="img"></div>
+                            <div class="text-start ps-2">
+                                <h3>Lorem Ipsum Dolor Sit Amet.</h3>
+                                <span class="badge badge-yellow text-uppercase">UI Design</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- THIRD ITEM -->
+                    <a class="item d-block" href="#">
+                        <div class="d-flex justify-content-center">
+                            <div id="post3" class="img"></div>
+                            <div class="text-start ps-2">
+                                <h3>Lorem Ipsum Dolor Sit Amet.</h3>
+                                <span class="badge badge-blue text-uppercase">Photography</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- FOURTH ITEM -->
+                    <a class="item d-block" href="#">
+                        <div class="d-flex justify-content-center">
+                            <div id="post4" class="img"></div>
+                            <div class="text-start ps-2">
+                                <h3>Lorem Ipsum Dolor Sit Amet.</h3>
+                                <span class="badge badge-orange text-uppercase">Book</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- FIFTH ITEM -->
+                    <a class="item d-block" href="#">
+                        <div class="d-flex justify-content-center">
+                            <div id="post5" class="img"></div>
+                            <div class="text-start ps-2">
+                                <h3>Lorem Ipsum Dolor Sit Amet.</h3>
+                                <span class="badge badge-yellow text-uppercase">UI Design</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- "CONTACT US" SECTION -->
+            <section id="contact" class="col-12 col-lg-4 m-0">
+                <h2 class="text-uppercase">Contact us</h2>
+                <hr class="line">
+                <!-- ADDRESS -->
+                <p class="address pt-0 mb-4">
+                    10044 West 23th Street, Suite 721<br>New York NY 10010<br>
+                    Email: <a href="mailto:Username@email.com">Username@email.com</a><br>
+                    Phone: <a href="tel:+101234567890">+1 (0) 123 4567 890</a><br>
+                    Fax: +1 (0) 321 4567 890
+                </p>
+                <!-- CONTACT FORM -->
+                <form class="px-3">
+                    <div>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name..">
+                    </div>
+                    <div>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email..">
+                    </div>
+                    <div>
+                        <textarea class="form-control" id="message" placeholder="Your Message.." style="resize: none;"></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-darkgreen btn-block text-uppercase">Send</button>
+                      </div>
+                </form>
+            </section>
+        </div>
+
+        <!-- "AS SEEN ON" SECTION -->
+        <section id="bottom" class="text-center">
+            <h2 class="text-uppercase">As seen on</h2>
+            <hr class="line">
+            <div class="d-flex flex-wrap justify-content-evenly">
+                <a class="item d-flex justify-content-center align-items-center" href="https://edition.cnn.com/" target="_blank">
+                    <img src="assets/img/icons/cnn-logo.png" alt="CNN logo">
+                </a>
+                <a class="item d-flex justify-content-center align-items-center" href="https://techcrunch.com/" target="_blank">
+                    <img src="assets/img/icons/tc-logo.png" alt="TechCrunch logo">
+                </a>
+                <a class="item d-flex justify-content-center align-items-center" href="https://www.bbc.com/news" target="_blank">
+                    <img src="assets/img/icons/bbc-logo.png" alt="BBC logo">
+                </a>
+                <a class="item d-flex justify-content-center align-items-center" href="https://www.nytimes.com/international/" target="_blank">
+                    <img src="assets/img/icons/thenewyorktimes-logo.png" alt="The New York Times logo" width="100%">
+                </a>
+            </div>
+        </section>
+
+        <!-- COPYRIGHT SECTION -->
+        <div id="copyright" class="text-center">
+            made with <i class="fas fa-heart"></i> by Sheyda :)
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
